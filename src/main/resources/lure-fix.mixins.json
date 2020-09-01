@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "draylar.lurefix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FishingBobberEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

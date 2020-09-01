@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lure-fix",
+  "version": "${version}",
+  "name": "Lure Fix",
+  "description": "Fixes a bug with the Lure enchantment that makes levels 6+ unusable.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/lure-fix/icon.png",
+  "environment": "*",
+  "mixins": [
+    "lure-fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
